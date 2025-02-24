@@ -8,8 +8,12 @@ Setiap blok memiliki bentuk unik dan harus digunakan seluruhnya. Papan awal sela
 
 ## 🔧 Instalasi & Penggunaan (Windows & Linux)
 Program ini dapat dijalankan di **Windows** maupun **Linux** dengan langkah-langkah berikut:
-### **🖥️ Windows**
-1. **Pastikan Java terinstal** (minimal Java 8).  
+### **1. Linux**
+```
+sudo apt install openjdk-17-jdk
+```
+### **2. Windows**
+1. **Pastikan Java terinstal** (minimal Jva 8).  
    - Cek dengan perintah:  
      ```sh
      java -version
