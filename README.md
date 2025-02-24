@@ -75,7 +75,7 @@ Contoh:
 
 ## ✒️ Author
 **Rendi Adinata**  
-📌 **NIM**: 10123083  
-📌 **Kelas**: K1  
+**NIM**: 10123083  
+**Kelas**: K1  
 
 
