@@ -1,8 +1,7 @@
 # Tucil1_10123083
 # IQ Puzzler Pro
 
-**IQ Puzzler Pro** adalah permainan papan yang bertujuan untuk mengisi seluruh papan dengan piece (blok puzzle) yang telah tersedia.  
-Setiap blok memiliki bentuk unik dan harus digunakan seluruhnya. Papan awal selalu kosong, dan setiap blok dapat **dirotasi** maupun **dicerminkan** untuk memaksimalkan kemungkinan penempatan.
+**IQ Puzzler Pro** adalah permainan papan yang bertujuan untuk mengisi seluruh papan dengan piece (blok puzzle) yang telah tersedia.  Tujuan utama permainan adalah mengisi seluruh papan dengan blok-blok puzzle yang tersedia, dengan tiap blok memiliki bentuk unik dan harus digunakan seluruhnya. Papan awal selalu kosong, dan setiap blok dapat **dirotasi** maupun **dicerminkan** untuk memaksimalkan kemungkinan penempatan.
 
 ---
 
