@@ -8,10 +8,18 @@ Setiap blok memiliki bentuk unik dan harus digunakan seluruhnya. Papan awal sela
 
 ## 🔧 Instalasi & Penggunaan (Windows & Linux)
 Program ini dapat dijalankan di **Windows** maupun **Linux** dengan langkah-langkah berikut:
+### **🖥️ Windows**
+1. **Pastikan Java terinstal** (minimal Java 8).  
+   - Cek dengan perintah:  
+     ```sh
+     java -version
+     ```
+   - Jika belum terinstal, unduh Java dari: [https://www.oracle.com/java/technologies/javase-jdk11-downloads.html](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 
-### **1️⃣ Pastikan Java sudah terinstal**
-Unduh Java 17 ke atas pada link berikut. https://www.oracle.com/id/java/technologies/downloads/
-
+2. **Download repository ini** atau clone dengan Git:  
+   ```sh
+   git clone https://github.com/xinuzo/Tucil1_10123083.git
+---
 ## 📥 Input Format
 Input program diberikan melalui berkas **.txt** dengan format berikut:
 
@@ -48,7 +56,8 @@ Output yang dihasilkan oleh program mencakup:
 - **Konfigurasi papan** yang terisi penuh oleh blok puzzle, dengan setiap blok ditandai menggunakan warna berbeda (**output berwarna**).  
 - **Waktu eksekusi** pencarian solusi (dalam **milidetik**), hanya untuk proses **algoritma brute force**.  
 - **Jumlah iterasi** atau kasus yang ditinjau oleh algoritma.  
-- **Opsi penyimpanan** hasil output ke dalam berkas **.txt**.  
+- **Opsi penyimpanan** hasil output ke dalam berkas **.txt**.
+
 ![Screenshot 2025-02-24 084759](https://github.com/user-attachments/assets/93a2c928-35cf-4b73-962b-5adb5bd79afb)
 ---
 
