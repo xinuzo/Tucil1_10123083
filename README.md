@@ -19,13 +19,20 @@ Program ini dapat dijalankan di **Windows** maupun **Linux** dengan langkah-lang
 2. **Download repository ini** atau clone dengan Git:  
    ```sh
    git clone https://github.com/xinuzo/Tucil1_10123083.git
+3. **Ubah directory ke src**
+   cd src
+4. **Compile dan Run**
+```
+javac -d ../bin Main.java
+java -cp ../bin Main
+```
 ---
 ## 📥 Input Format
 Input program diberikan melalui berkas **.txt** dengan format berikut:
 
 1. **Baris pertama**:  
    - Dua angka (**N** dan **M**) menentukan dimensi papan (**NxM**).  
-   - Satu angka (**P**) menunjukkan banyaknya blok puzzle.  
+   - Satu angka (**P**) menunjukkan banyaknya blok puzzle.
    
 2. **Baris kedua**:  
    - Sebuah **string** yang mengidentifikasi jenis kasus konfigurasi, misalnya:  
@@ -66,5 +73,4 @@ Output yang dihasilkan oleh program mencakup:
 📌 **NIM**: 10123083  
 📌 **Kelas**: K1  
 
-```sh
-java -version
+
