@@ -4,6 +4,14 @@
 **IQ Puzzler Pro** adalah permainan papan yang bertujuan untuk mengisi seluruh papan dengan piece (blok puzzle) yang telah tersedia.  
 Setiap blok memiliki bentuk unik dan harus digunakan seluruhnya. Papan awal selalu kosong, dan setiap blok dapat **dirotasi** maupun **dicerminkan** untuk memaksimalkan kemungkinan penempatan.
 
+---
+
+## 🔧 Instalasi & Penggunaan (Windows & Linux)
+Program ini dapat dijalankan di **Windows** maupun **Linux** dengan langkah-langkah berikut:
+
+### **1️⃣ Pastikan Java sudah terinstal**
+Cek versi Java dengan menjalankan perintah berikut:
+
 ## 📥 Input Format
 Input program diberikan melalui berkas **.txt** dengan format berikut:
 
@@ -19,6 +27,18 @@ Input program diberikan melalui berkas **.txt** dengan format berikut:
 
 3. **Baris selanjutnya**:  
    - Representasi bentuk masing-masing blok puzzle menggunakan karakter **huruf kapital (A–Z)** untuk membedakan setiap blok.
+N M P
+BoardType
+<Piece 1>
+<Piece 2>
+...
+<Piece P>
+
+### Keterangan:
+- **N** dan **M**: Dimensi papan (**NxM**).  
+- **P**: Banyaknya blok puzzle.  
+- **BoardType**: Jenis konfigurasi papan (contoh: `DEFAULT`, `CUSTOM`, `PYRAMID`).  
+- **<Piece 1> ... <Piece P>**: Representasi masing-masing blok puzzle menggunakan huruf kapital **A–Z**.  
 
 ## 📤 Output Format
 Output yang dihasilkan oleh program mencakup:
@@ -30,6 +50,10 @@ Output yang dihasilkan oleh program mencakup:
 
 ---
 
-📌 **Catatan:** Pastikan format input sesuai agar program dapat berjalan dengan baik.
+## ✒️ Author
+**Rendi Adinata**  
+📌 **NIM**: 10123083  
+📌 **Kelas**: K1  
 
-
+```sh
+java -version
