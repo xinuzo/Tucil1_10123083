@@ -5,7 +5,7 @@
 
 ---
 
-## 🔧 Instalasi & Penggunaan (Windows & Linux)
+## Instalasi & Penggunaan (Windows & Linux)
 Program ini dapat dijalankan di **Windows** maupun **Linux** dengan langkah-langkah berikut:
 ### **1. Linux**
 ```
