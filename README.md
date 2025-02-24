@@ -31,7 +31,7 @@ javac -d ../bin Main.java
 java -cp ../bin Main
 ```
 ---
-## 📥 Input Format
+## Input Format
 Input program diberikan melalui berkas **.txt** dengan format berikut:
 
 1. **Baris pertama**:  
@@ -46,6 +46,7 @@ Input program diberikan melalui berkas **.txt** dengan format berikut:
 
 3. **Baris selanjutnya**:  
    - Representasi bentuk masing-masing blok puzzle menggunakan karakter **huruf kapital (A–Z)** untuk membedakan setiap blok.
+Contoh:
 ```
 N M P
 BoardType
@@ -61,14 +62,14 @@ BoardType
 - **BoardType**: Jenis konfigurasi papan (contoh: `DEFAULT`, `CUSTOM`, `PYRAMID`).  
 - **<Piece 1> ... <Piece P>**: Representasi masing-masing blok puzzle menggunakan huruf kapital **A–Z**.  
 
-## 📤 Output Format
+## Output Format
 Output yang dihasilkan oleh program mencakup:
 
 - **Konfigurasi papan** yang terisi penuh oleh blok puzzle, dengan setiap blok ditandai menggunakan warna berbeda (**output berwarna**).  
 - **Waktu eksekusi** pencarian solusi (dalam **milidetik**), hanya untuk proses **algoritma brute force**.  
 - **Jumlah iterasi** atau kasus yang ditinjau oleh algoritma.  
 - **Opsi penyimpanan** hasil output ke dalam berkas **.txt**.
-
+Contoh:
 ![Screenshot 2025-02-24 084759](https://github.com/user-attachments/assets/93a2c928-35cf-4b73-962b-5adb5bd79afb)
 ---
 
