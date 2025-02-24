@@ -10,7 +10,7 @@ Setiap blok memiliki bentuk unik dan harus digunakan seluruhnya. Papan awal sela
 Program ini dapat dijalankan di **Windows** maupun **Linux** dengan langkah-langkah berikut:
 
 ### **1️⃣ Pastikan Java sudah terinstal**
-Cek versi Java dengan menjalankan perintah berikut:
+Unduh Java 17 ke atas pada link berikut. https://www.oracle.com/id/java/technologies/downloads/
 
 ## 📥 Input Format
 Input program diberikan melalui berkas **.txt** dengan format berikut:
@@ -27,12 +27,14 @@ Input program diberikan melalui berkas **.txt** dengan format berikut:
 
 3. **Baris selanjutnya**:  
    - Representasi bentuk masing-masing blok puzzle menggunakan karakter **huruf kapital (A–Z)** untuk membedakan setiap blok.
+```
 N M P
 BoardType
 <Piece 1>
 <Piece 2>
 ...
 <Piece P>
+```
 
 ### Keterangan:
 - **N** dan **M**: Dimensi papan (**NxM**).  
