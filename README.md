@@ -49,7 +49,7 @@ Output yang dihasilkan oleh program mencakup:
 - **Waktu eksekusi** pencarian solusi (dalam **milidetik**), hanya untuk proses **algoritma brute force**.  
 - **Jumlah iterasi** atau kasus yang ditinjau oleh algoritma.  
 - **Opsi penyimpanan** hasil output ke dalam berkas **.txt**.  
-
+![Screenshot 2025-02-24 084759](https://github.com/user-attachments/assets/93a2c928-35cf-4b73-962b-5adb5bd79afb)
 ---
 
 ## ✒️ Author
