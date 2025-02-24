@@ -27,8 +27,8 @@ sudo apt install openjdk-17-jdk
    cd src
 4. **Compile dan Run**
 ```
-javac -d ../bin Main.java
-java -cp ../bin Main
+javac -d ../bin TetrominoTilingSolver.java
+java -cp ../bin TetrominoTilingSolver
 ```
 ---
 ## Input Format
