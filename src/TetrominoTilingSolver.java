@@ -290,7 +290,7 @@ public class TetrominoTilingSolver {
                     }
                 }
                 pieces.add(pieceLines);
-            }nSystem.out.println();
+            }System.out.println();
 
             Solver solver = new Solver(M, N, pieces);
             solver.solve();
