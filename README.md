@@ -1,80 +1,20 @@
-# Tucil1_10123083
-# IQ Puzzler Pro
+# Image Compression menggunakan Quadtree
 
-**IQ Puzzler Pro** adalah permainan papan yang bertujuan untuk mengisi seluruh papan dengan piece (blok puzzle) yang telah tersedia.  Tujuan utama permainan adalah mengisi seluruh papan dengan blok-blok puzzle yang tersedia, dengan tiap blok memiliki bentuk unik dan harus digunakan seluruhnya. Papan awal selalu kosong, dan setiap blok dapat **dirotasi** maupun **dicerminkan** untuk memaksimalkan kemungkinan penempatan.
+## Deskripsi
+Proyek Image Compression ini menggunakan struktur data Quadtree untuk kompresi gambar dengan pendekatan divide and conquer; gambar awal dibagi secara rekursif menjadi empat kuadran dan setiap blok dihitung nilai error berdasarkan analisis sistem warna RGB (misalnya, variansi, MAD, dsb.). Jika error pada blok melebihi threshold, blok akan dipecah lebih lanjut hingga mencapai tingkat keseragaman yang diinginkan atau ukuran minimum, setelah itu blok-blok yang tidak terpecah direpresentasikan dengan warna rata-rata dan disusun kembali membentuk gambar terkompresi yang lebih efisien, dengan output berupa gambar terkompresi serta animasi GIF yang menunjukkan progresi kompresi.
 
----
 
-## Instalasi & Penggunaan (Windows & Linux)
-Program ini dapat dijalankan di **Windows** maupun **Linux** dengan langkah-langkah berikut:
-### **1. Linux**
-```
-sudo apt install openjdk-17-jdk
-```
-### **2. Windows**
-1. **Pastikan Java terinstal** (minimal Jva 8).  
-   - Cek dengan perintah:  
-     ```sh
-     java -version
-     ```
-   - Jika belum terinstal, unduh Java dari: [https://www.oracle.com/java/technologies/javase-jdk11-downloads.html](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+## Instalasi & Penggunaan
 
-2. **Download repository ini** atau clone dengan Git:  
+### Persyaratan
+- Java Development Kit (JDK) minimal versi 8.
+- Pastikan variabel lingkungan (`JAVA_HOME`) telah diatur dan perintah `javac` serta `java` tersedia pada `PATH`.
+
+### Langkah-langkah
+1. **Download atau Clone Repository:**  
+   Tempatkan seluruh file `.java` dalam satu direktori.
+
+2. **Kompilasi:**  
+   Buka terminal atau command prompt, arahkan ke direktori proyek, dan jalankan:
    ```sh
-   git clone https://github.com/xinuzo/Tucil1_10123083.git
-3. **Ubah directory ke src**
-   cd src
-4. **Compile dan Run**
-```
-javac -d ../bin TetrominoTilingSolver.java
-java -cp ../bin TetrominoTilingSolver
-```
----
-## Input Format
-Input program diberikan melalui berkas **.txt** dengan format berikut:
-
-1. **Baris pertama**:  
-   - Dua angka (**N** dan **M**) menentukan dimensi papan (**NxM**).  
-   - Satu angka (**P**) menunjukkan banyaknya blok puzzle.
-   
-2. **Baris kedua**:  
-   - Sebuah **string** yang mengidentifikasi jenis kasus konfigurasi, misalnya:  
-     - `DEFAULT`  
-     - `CUSTOM`  
-     - `PYRAMID`  
-
-3. **Baris selanjutnya**:  
-   - Representasi bentuk masing-masing blok puzzle menggunakan karakter **huruf kapital (A–Z)** untuk membedakan setiap blok.
-Contoh:
-```
-N M P
-BoardType
-<Piece 1>
-<Piece 2>
-...
-<Piece P>
-```
-
-### Keterangan:
-- **N** dan **M**: Dimensi papan (**NxM**).  
-- **P**: Banyaknya blok puzzle.  
-- **BoardType**: Jenis konfigurasi papan (contoh: `DEFAULT`, `CUSTOM`, `PYRAMID`).  
-- **<Piece 1> ... <Piece P>**: Representasi masing-masing blok puzzle menggunakan huruf kapital **A–Z**.  
-
-## Output Format
-Output yang dihasilkan oleh program mencakup:
-
-- **Konfigurasi papan** yang terisi penuh oleh blok puzzle, dengan setiap blok ditandai menggunakan warna berbeda (**output berwarna**).  
-- **Waktu eksekusi** pencarian solusi (dalam **milidetik**), hanya untuk proses **algoritma brute force**.  
-- **Jumlah iterasi** atau kasus yang ditinjau oleh algoritma.  
-- **Opsi penyimpanan** hasil output ke dalam berkas **.txt**.
-Contoh:
-![Screenshot 2025-02-24 084759](https://github.com/user-attachments/assets/93a2c928-35cf-4b73-962b-5adb5bd79afb)
----
-
-## ✒️ Author
-**Rendi Adinata**  
-**NIM**: 10123083  
-**Kelas**: K1  
-
-
+   javac *.java
