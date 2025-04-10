@@ -1,7 +1,8 @@
 # Image Compression menggunakan Quadtree
 
 ## Deskripsi
-Proyek Image Compression ini menggunakan struktur data Quadtree untuk kompresi gambar dengan pendekatan divide and conquer; gambar awal dibagi secara rekursif menjadi empat kuadran dan setiap blok dihitung nilai error berdasarkan analisis sistem warna RGB (misalnya, variansi, MAD, dsb.). Jika error pada blok melebihi threshold, blok akan dipecah lebih lanjut hingga mencapai tingkat keseragaman yang diinginkan atau ukuran minimum, setelah itu blok-blok yang tidak terpecah direpresentasikan dengan warna rata-rata dan disusun kembali membentuk gambar terkompresi yang lebih efisien, dengan output berupa gambar terkompresi serta animasi GIF yang menunjukkan progresi kompresi.
+Image Compression using Quadtree adalah program kompresi gambar berbasis Java yang menggunakan struktur data Quadtree dan algoritma divide-and-conquer. Program ini membagi gambar menjadi blok-blok kecil berdasarkan keseragaman warna dan mengkompresinya dengan berbagai metode perhitungan galat.
+
 
 
 ## Instalasi & Penggunaan
